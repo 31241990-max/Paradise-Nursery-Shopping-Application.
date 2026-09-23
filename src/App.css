@@ -115,11 +115,17 @@
 }
 /* LandingPage.css */
 @media screen and (max-width: 768px) {
+  .landing-page {
+    overflow-y: auto;
+  }
+
   .content {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 40px;
   }
 
   .landing_content {

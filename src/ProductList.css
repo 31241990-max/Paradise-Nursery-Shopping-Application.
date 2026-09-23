@@ -250,3 +250,16 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+  @media (max-width: 480px) {
+    .product-card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+    .plant_heading {
+      width: 90%;
+    }
+    .product-list {
+      padding: 10px;
+    }
+  }
